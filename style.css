@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap&subset=cyrillic,cyrillic-ext,greek,latin-ext');
+body{
+    margin: 0;
+    background: #dadada;
+}
+.head{
+    text-align: center;
+    background: #52d0c4;
+    padding: 3px 0;
+    font-family: 'Press Start 2P';
+    color: #fff;
+}
+.room{
+    width: 700px;
+    margin: 30px auto;
+    text-align: center;
+}
+.chest{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    cursor: pointer;
+    background: repeating-linear-gradient(90deg, #bc6d60, #bc7360 10px, #985146 10px, #985546 20px);
+    background-image: url(https://opengameart.org/sites/default/files/Treasure%20Chest%20closed%20254x254.png);
+    background-size: contain;
+    background-position: 0 -31px;
+}
+.key{
+    width: 150px;
+    height: 79px;
+    /* background: linear-gradient(145deg, #fff70b 15%, #fff39d 30%, #fff8dd 50%, gold 75%); */
+    opacity: 0;
+    margin: 60px auto 0;
+    background: url(http://pixelartmaker.com/art/72369a5aede8489.png) #2fccff85;
+    background-size: cover;
+    background-position: 0;
+    border-radius: 51px;
+    box-shadow: 0 0 14px 6px #ffdc2fa8;
+    position: relative;
+    top: 10px;
+}
+.title{
+    font-family: 'Press Start 2P';
+}
+.lose{
+    color: red;
+}
+.win{
+    color: green;
+}
+.try_again{
+    background: #ffdc2f;
+    border: 3px solid #ffab13;
+    padding: 13px 29px;
+    color: #ff8100;
+    font-size: 12px;
+    font-family: 'Press Start 2P';
+    cursor: pointer;
+    margin: 30px;
+    border-radius: 5px;
+}
+.try_again:hover{
+    box-shadow: 0 0 0px 5px #ffee98c7;
+}
